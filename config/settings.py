@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     # Local apps
-    #"accounts",
+    "accounts",
 ]
 
 MIDDLEWARE = [
@@ -81,7 +81,7 @@ DATABASES = {
 
 # Custom user model (must be set before the first migrate)
 
-#AUTH_USER_MODEL = "accounts.User"
+AUTH_USER_MODEL = "accounts.User"
 
 
 # Password validation
