@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Uploaded files and collected static files
+media/
+staticfiles/
+
+# Local databases (SQLite is not used in this project)
+*.sqlite3
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
